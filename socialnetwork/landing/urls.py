@@ -7,5 +7,8 @@ from . import views
 
 urlpatterns = [
 
-    path('', views.Index, name='index')
+    path('', views.Index, name='index'),
+    path('login/', views.Login, name='login'),
+
+    
 ]

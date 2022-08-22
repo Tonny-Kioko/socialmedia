@@ -15,3 +15,6 @@ from django.views import View
 
 def Index(request):
     return render (request, 'landing/index.html')
+
+def Login(request):
+    return render(request, 'landing/login_register.html')
